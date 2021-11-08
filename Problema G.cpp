@@ -13,9 +13,9 @@ int main(){
     scanf("%d",&y);
     while(contador<=10){
         tablax=x*contador;
-        printf("\n%d Por %d contador es %d",x,contador,tablax);
+        printf("\n%d Por %d es %d",x,contador,tablax);
         tablay=y*contador;
-        printf("\n%d Por %d contador es %d",y,contador,tablay);
+        printf("\n%d Por %d es %d",y,contador,tablay);
         contador=contador+1;
     }
 	return 0;
